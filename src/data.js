@@ -1,0 +1,68 @@
+export const songList = () => {
+    return [
+      {
+        id: "9",
+        title: "Something Just Like This ",
+        cover:"./songs_images/viva la vida cover.jpg",
+        src: "./songs/The Chainsmokers & Coldplay - Something Just Like This .mp3",
+        artist: "The Chainsmokers & Coldplay ",
+        lyrics: "./songs_lrc/somethinglikethis.lrc",
+      },
+      {
+        id: "5",
+        title: "Africa",
+        cover:"./songs_images/toto album.jpg",
+        src: "./songs/Toto - Africa.mp3",
+        artist: "Toto",
+        lyrics: "./songs_lrc/africa.lrc",
+      },
+      {
+        id: "0",
+        title: "Viva La Vida",
+        cover: "./songs_images/viva la vida.png",
+        src: "./songs/Coldplay - Viva La Vida.mp3",
+        artist: "Coldplay",
+        lyrics: "./songs_lrc/viva.lrc",
+      },
+      {
+        id: "4",
+        title: "Happy Piano Music",
+        cover:"",
+        src: "./songs/Happy Piano Music.mp3",
+        artist: "Audio Jungle",
+        lyrics: "",
+      },
+      {
+        id: "2",
+        title: "Glass of Water",
+        cover:"./songs_images/viva la vida.png",
+        src: "./songs/Coldplay - Glass Of Water.mp3",
+        artist: "Coldplay",
+        lyrics: "./songs_lrc/glassofwater.lrc",
+      },
+      {
+        id: "3",
+        title: "3005",
+        cover:"./songs_images/3005ChildishGambino.jpg",
+        src: "./songs/3005.mp3",
+        artist: "Childish Gambino",
+        lyrics: "./songs_lrc/3005.lrc",
+      },
+      {
+        id: "6",
+        title: "You're the Only One",
+        cover:"./songs_images/lofi album.jpg",
+        src: "./songs/Lo-fi Type Beat - You're the Only One.mp3",
+        artist: "Lo-fi Type Beat",
+        lyrics: "",
+      },
+      {
+        id: "7",
+        title: "de Pablos",
+        cover:"",
+        src: "./songs/de Pablos.mp3",
+        artist: "Lofi Boy #1",
+        lyrics: "",
+      },
+    ];
+  }

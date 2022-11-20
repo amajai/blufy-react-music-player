@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/public/songs/*
+/public/songs_images/*
+/public/songs_lrc/*
+
+
+
+

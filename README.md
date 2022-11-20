@@ -4,10 +4,9 @@ A javascript music player project I built and took inspiration from spotify. Has
 
 ## Features
 
-- Basic music player functionalities (Play, skip, volume etc.. )
+- Basic music player functionalities (Play, skip, volume, shuffle etc.. )
 - Library of music track you add
-- Lyrics mode if lrc file (lyrics file format) is provided with a music track
+- Lyrics/karaoke mode - If lrc file (lyrics file format) is provided with a music track
 - Adjust Playback speed ranging from 2x to 0.25x speed
-- Shuffle mode
 - Default album cover is used if music track has no image cover
 - Responsive audio timeframe slider (synced with lyrics)

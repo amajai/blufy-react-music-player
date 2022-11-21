@@ -22,3 +22,17 @@ A javascript music player project I built and took inspiration from spotify. Has
     - `src` - audio file source path
     - `artist` - artist name
     - `lyrics` - .lrc file format source path 
+    
+    Object template
+
+    ```javascript
+          {
+            id: "[...]",
+            title: "[...]",
+            cover:"./songs_images/[...].jpg",
+            src: "./songs/[...].mp3",
+            artist: "[...]",
+            lyrics: "./songs_lrc/[...].lrc",
+          },
+
+    ```

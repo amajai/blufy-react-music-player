@@ -13,7 +13,7 @@ A javascript music player project I built and took inspiration from spotify. Has
 - Default album cover is used if music track has no image cover
 - Responsive audio timeframe slider (synced with lyrics)
 
-## Adding music track and lyrics
+## Adding music track, album cover image and lyrics
 1. To add music track, song cover and lyrics, go to `publc/` folder and them to `publc/songs`, `publc/songs_images` and `publc/songs_lrc` respectively.
 2. Go to `data.js` in `src/` folder and add an object in the `songList` function detailing the music track, cover image and lyrics file you added:
     - `id` - unique id but its optional

@@ -2,6 +2,13 @@
 ![Project frontpage](https://github.com/amajai/blufy-react-music-player/blob/main/project%20images/main.jpg "Project frontpage")
 
 
+Web app: [Demo](https://amajai.github.io/blufy-react-music-player/)
+
+Figma Design: [Design Prototype](https://www.figma.com/file/kdTNPNfwaiVJO80Pw5zR7X/Blufly-Music-Player-Prototype?t=8kUvYu5E7saQ2Fqh-1)
+
+Entity Relationship Diagram: [Project ERD](https://www.figma.com/file/n8H1IrKjyrwszFdPrDGwyl/Blufy-ERD?t=8kUvYu5E7saQ2Fqh-1)
+
+
 A react music player project I built and took inspiration from spotify. Has all the functionality of a music player with additional features to make it unique. 
 
 ## Features

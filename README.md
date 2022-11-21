@@ -1,5 +1,5 @@
 # Blufy - React Music Player
-![Project frontpage](https://github.com/amajai/blufy-music-player/blob/main/project%20images/main.jpg "Project frontpage")
+![Project frontpage](https://github.com/amajai/blufy-react-music-player/blob/main/project%20images/main.jpg "Project frontpage")
 
 
 A react music player project I built and took inspiration from spotify. Has all the functionality of a music player with additional features to make it unique. 

@@ -2,7 +2,7 @@
   "homepage": "http://amajai.github.io/blufy-react-music-player",
   "name": "blufy-react-music-player",
   "version": "0.1.0",
-  "private": false,
+  "private": false, 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",

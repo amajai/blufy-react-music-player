@@ -23,7 +23,7 @@ A react music player project I built and took inspiration from spotify. Has all 
     - `artist` - artist name
     - `lyrics` - .lrc file format source path 
     
-    Object template
+    Object template:
 
     ```javascript
           {

@@ -1,6 +1,6 @@
 {
-  "homepage": "http://amajai.github.io/blufy-music-player",
-  "name": "blufy-music-player",
+  "homepage": "http://amajai.github.io/blufy-react-music-player",
+  "name": "blufy-react-music-player",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

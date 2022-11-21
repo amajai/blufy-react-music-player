@@ -29,9 +29,9 @@ A react music player project I built and took inspiration from spotify. Has all 
           {
             id: "[...]",
             title: "[...]",
-            cover:"./songs_images/[...].jpg",
-            src: "./songs/[...].mp3",
             artist: "[...]",
+            src: "./songs/[...].mp3",
+            cover:"./songs_images/[...].jpg",
             lyrics: "./songs_lrc/[...].lrc",
           },
 

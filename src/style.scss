@@ -343,6 +343,14 @@ main.open {
     }
 }
 @media all and (max-width: 1056px){
+    #lyrics{
+        font-size: .8rem;
+        .lyrics-content{
+            .current-lyric {
+                font-size: 1rem;
+            } 
+        }
+    }
     .player-controls{
         padding: 2rem 5rem !important;
 
@@ -360,7 +368,12 @@ main.open {
 
 @media all and (max-width: 768px){
     #lyrics{
-        font-size: .8rem;
+        font-size: .6rem;
+        .lyrics-content{
+            .current-lyric {
+                font-size: 1rem;
+            } 
+        }
     }
     .player-controls{
         padding: 1rem 4rem !important;

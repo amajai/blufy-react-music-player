@@ -12,8 +12,9 @@ const Lyrics = ({
   const [currentLyricIndex, setCurrentLyricIndex] = useState("");
 
   useEffect(() => {
+    setLyrics([])
     getLyrics();
-  });
+  }, [currentSong]);
 
   useEffect(() => {
     if (lyrics.length && toggleLyrics) {
@@ -26,11 +27,8 @@ const Lyrics = ({
         setCurrentLyricIndex(index);
         currentLyricDOM.classList.add("current-lyric");
         const lyricLine = document.querySelector(".current-lyric");
-        const c =
-          lyricLine.offsetTop -
-          lyricContent.offsetTop -
-          (lyricContent.offsetHeight / 2 - lyricLine.offsetHeight - 20);
-        lyricContent.scrollTop = c;
+        const center = lyricLine.offsetTop - lyricContent.offsetTop - (lyricContent.offsetHeight / 2 - lyricLine.offsetHeight - 20);
+        lyricContent.scrollTop = center;
         const lyricLines = lyricContent.childNodes;
 
         lyricLines.forEach((line, i) => {
@@ -51,6 +49,7 @@ const Lyrics = ({
       }
     }
   }, [songInfo, currentLyricIndex, lyrics, toggleLyrics]);
+
 
 
   const skipTolyricsLineHandler = (time) => {

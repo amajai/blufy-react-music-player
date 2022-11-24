@@ -12,12 +12,37 @@ const Lyrics = ({
   const [currentLyricIndex, setCurrentLyricIndex] = useState("");
 
   useEffect(() => {
-    getLyrics();
-  });
-
-  useEffect(() => {
-    setLyrics([])
-  }, [currentSong,setLyrics]);
+    const parseLyric = (lrc) => {
+      const regex = /^\[(?<time>\d{2}:\d{2}(.\d{2})?)\](?<text>.*)/;
+  
+      const lines = lrc.split("\n");
+  
+      const output = [];
+  
+      lines.forEach((line) => {
+        const match = line.match(regex);
+  
+        if (match == null) return;
+  
+        const { time, text } = match.groups;
+  
+        output.push({
+          time: parseTime(time),
+          text: text.trim(),
+        });
+      });
+  
+      return output;
+    };
+    
+    const getLyrics = async () => {
+      const lyrics_src = currentSong.lyrics;
+      const res = await fetch(lyrics_src);
+      const lrc = await res.text();
+      setLyrics(parseLyric(lrc));
+    };
+    getLyrics()
+  },[currentSong]);
 
   useEffect(() => {
     if (lyrics.length && toggleLyrics) {
@@ -85,35 +110,7 @@ const Lyrics = ({
     return min + sec; // Total seconds
   };
 
-  const getLyrics = async () => {
-    const lyrics_src = currentSong.lyrics;
-    const res = await fetch(lyrics_src);
-    const lrc = await res.text();
-    setLyrics(parseLyric(lrc));
-  };
 
-  const parseLyric = (lrc) => {
-    const regex = /^\[(?<time>\d{2}:\d{2}(.\d{2})?)\](?<text>.*)/;
-
-    const lines = lrc.split("\n");
-
-    const output = [];
-
-    lines.forEach((line) => {
-      const match = line.match(regex);
-
-      if (match == null) return;
-
-      const { time, text } = match.groups;
-
-      output.push({
-        time: parseTime(time),
-        text: text.trim(),
-      });
-    });
-
-    return output;
-  };
 
   return (
     <div id="lyrics" className={`${toggleLyrics ? "lyrics-open" : ""}`}>

@@ -3,7 +3,7 @@
 A react music player project I built and took inspiration from spotify. Has all the functionality of a music player with additional features to make it unique. 
 
 
-Web app: [Demo](https://amajai.github.io/blufy-react-music-player/)
+Web app: [Demo](https://symphonious-yeot-948ce4.netlify.app/)
 
 Figma Design: [Design Prototype](https://www.figma.com/file/kdTNPNfwaiVJO80Pw5zR7X/Blufly-Music-Player-Prototype?t=8kUvYu5E7saQ2Fqh-1)
 

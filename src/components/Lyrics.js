@@ -12,9 +12,12 @@ const Lyrics = ({
   const [currentLyricIndex, setCurrentLyricIndex] = useState("");
 
   useEffect(() => {
-    setLyrics([])
     getLyrics();
-  }, [currentSong]);
+  });
+
+  useEffect(() => {
+    setLyrics([])
+  }, [currentSong,setLyrics]);
 
   useEffect(() => {
     if (lyrics.length && toggleLyrics) {

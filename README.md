@@ -5,10 +5,6 @@ A react music player project I built and took inspiration from spotify. Has all 
 
 Web app: [Demo](https://symphonious-yeot-948ce4.netlify.app/)
 
-Figma Design: [Design Prototype](https://www.figma.com/file/kdTNPNfwaiVJO80Pw5zR7X/Blufly-Music-Player-Prototype?t=8kUvYu5E7saQ2Fqh-1)
-
-Entity Relationship Diagram: [Project ERD](https://www.figma.com/file/n8H1IrKjyrwszFdPrDGwyl/Blufy-ERD?t=8kUvYu5E7saQ2Fqh-1)
-
 ## Features
 
 - Basic music player functionalities (Play, skip, volume, shuffle etc.. )

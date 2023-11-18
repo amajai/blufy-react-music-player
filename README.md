@@ -5,6 +5,8 @@ A react music player project I built and took inspiration from spotify. Has all 
 
 Web app: [Demo](https://symphonious-yeot-948ce4.netlify.app/)
 
+![Animation](https://github.com/amajai/blufy-react-music-player/assets/44467524/cfd8acc9-9fba-4b3c-9994-135679d9888e)
+
 ## Features
 
 - Basic music player functionalities (Play, skip, volume, shuffle etc.. )
